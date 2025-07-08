@@ -27,3 +27,4 @@ public class  Artiste{
     @JsonIgnore
     private List<Tableau> tableaux;
 }
+

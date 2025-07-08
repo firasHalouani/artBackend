@@ -49,7 +49,7 @@ public void DeleteSousAtelier(SousAtelier atelier){
 }
 
 public void DeleteAtelier(int id ){
-    messagingTemplate.convertAndSend("/topic/atelier" ,"Hello,this is a test message!");
+    messagingTemplate.convertAndSend("/topic/atelier" ,"Hello,this okkkk is a test message!");
     AR.deleteById(id);
 
 }
